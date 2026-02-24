@@ -66,8 +66,8 @@ async def get_garena_data(eat_token: str):
                 "open_id": open_id,
                 "access_token": token_value,
                 "region": region,
-                "credit": "Telegram : @Flexbasei",
-                "Power By": "Telegram : @spideerio_yt"
+                "credit": "Telegram : SOUMIK",
+                "Power By": "Telegram : SG EXPLOITS"
             }
 
     except Exception as e:
@@ -78,8 +78,8 @@ async def home():
     return """
     <div style="text-align: center; font-family: Arial, sans-serif; margin-top: 50px;">
         <h1 style="color: #2ecc71;">Eat Token Decoder API is Running!</h1>
-        <p><b>Credit:</b> @Flexbasei</p>
-        <p><b>Powered By:</b> @spideerio_yt</p>
+        <p><b>Credit:</b> SOUMIK</p>
+        <p><b>Powered By:</b> SG EXPLOITS</p>
         <hr style="width: 50%; border: 1px solid #eee;">
         <h2 style="color: #7f8c8d;">Use <code>/Eat?eat_token={Your Eat Token}</code> endpoint to get data.</h2>
     </div>
